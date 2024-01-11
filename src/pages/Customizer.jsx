@@ -53,7 +53,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('https://ai-threejs-website-server.vercel.app/', {
+      const response = await fetch('https://ai-server-pi8r.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
